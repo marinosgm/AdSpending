@@ -1,8 +1,9 @@
 {
   "name": "adspend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "check-spend.js",
   "scripts": {
+    "start": "node check-spend.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
