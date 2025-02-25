@@ -119,6 +119,6 @@ async function initializeBusinessManagers() {
 }
 
 initializeBusinessManagers().then(() => {
-    setInterval(checkAdSpend, 10 * 60 * 1000);
+    setInterval(checkAdSpend, 5 * 60 * 1000);
     checkAdSpend();
 });
