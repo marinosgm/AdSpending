@@ -14,7 +14,9 @@ async function fetchBusinessManagers() {
     
     const tokens = [
         process.env.FB_ACCESS_TOKEN, 
-        process.env.FB_ACCESS_TOKEN_BM1
+        process.env.FB_ACCESS_TOKEN_BM1,
+        process.env.FB_ACCESS_TOKEN_BM2
+
     ];
 
     for (const token of tokens) {
